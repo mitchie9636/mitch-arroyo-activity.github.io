@@ -1,0 +1,40 @@
+
+
+body{
+background-color: #f7b5b5;
+}
+
+#navbar {
+ position: fixed;
+ top: 0;
+ left: 0;
+ padding: 30px;
+ width: 220px;
+ height: 100vh;
+ background-color: rgb(208, 216, 245);
+}
+.nav-links {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main-docs {
+    margin-left: 400px;
+    margin-right: 20px;    
+    font-size: 22px;
+}
+@media(max-width: 1200px){
+    #navbar{
+        width: 150px;
+    }
+    h1{
+        font-size:  22px;
+    }
+    .main-doc {
+        margin-left: 250px;
+    }
+}
+.main-section {
+    margin: 50px;
+}
